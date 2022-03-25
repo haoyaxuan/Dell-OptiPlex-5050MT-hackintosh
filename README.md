@@ -16,12 +16,13 @@
 2：dp输出   
 3：有线网卡正常  
 4：usb，前面板和主板均正常  
-5：睡眠正常  
-6：音频正常   
+5：音频正常   
 
 ## 所需操作
 1：安装好系统后请将`utility/kexts`内的文件放到`/System/Library/Extensions`，然后适用`kext_utility`重建缓存
 
+## 存在问题
+1：睡眠后黑屏，暂不解决。
 
 ## 镜像下载
 - 黑果小兵部落阁 [MacOS Catalina 10.15.6](https://blog.daliansky.net/macOS-Catalina-10.15.6-19G73-Release-version-with-Clover-5119-original-image-Double-EFI-Version-UEFI-and-MBR.html)，感谢 @黑果小兵
