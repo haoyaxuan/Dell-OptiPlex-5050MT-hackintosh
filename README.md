@@ -18,8 +18,17 @@
 4：usb，前面板和主板均正常  
 5：音频正常   
 
-## 所需操作
-1：安装好系统后请将`utility/kexts`内的文件放到`/System/Library/Extensions`，然后适用`kext_utility`重建缓存
+## BIOS设置
++ General - Boot Sequence  勾选所有Boot Sequence选项，Boot List Option勾选UEFI启动
++ General - Advanced Boot Options  取消Enable Legacy Option ROMs
++ System Configuration - Serial Port  勾选Disabled
++ System Configuration - SATA Operation  勾选AHCI
++ System Configuration - USB Configuration  勾选全部
++ System Configuration - Audio  勾选全部 
++ Video - Primary Display  勾选Intel HD Graphics
++ Secure Boot - Secure Boot Enable  勾选Disable
++ Virtualization Support - Virtualization  取消勾选Enable Intel Virtualization Technology
++ Virtualization Support - VT for Direct I/O  取消勾选Enable VT for Direct I/O
 
 ## 存在问题
 1：睡眠后黑屏，暂不解决。
