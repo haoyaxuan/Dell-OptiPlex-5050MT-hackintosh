@@ -31,7 +31,7 @@
 + Virtualization Support - VT for Direct I/O  取消勾选Enable VT for Direct I/O
 
 ## 存在问题
-1：睡眠后黑屏，暂不解决。
+1：睡眠后黑屏，暂不解决，需要在`节能`中勾选`当显示器关闭时，防止电脑自动进入睡眠`。
 
 ## 镜像下载
 - 黑果小兵部落阁 [MacOS Catalina 10.15.6](https://blog.daliansky.net/macOS-Catalina-10.15.6-19G73-Release-version-with-Clover-5119-original-image-Double-EFI-Version-UEFI-and-MBR.html)，感谢 @黑果小兵
