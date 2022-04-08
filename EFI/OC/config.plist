@@ -8,14 +8,6 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>DSDT</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>DSDT.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>IRQ patches</string>
 				<key>Enabled</key>
 				<true/>
