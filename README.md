@@ -19,8 +19,10 @@
 * 音频正常
 
 ## 不正常功能
-
 * 睡眠唤醒后黑屏，需要在`节能`中勾选`当显示器关闭时，防止电脑自动进入睡眠`。
+
+## 赘述
+* HD630睡眠问题，全球误解，作者不再强求，如果想正常睡眠，请使用万能声卡驱动。
 
 ## BIOS设置
 * General → Advanced Boot Options：***取消勾选***
@@ -28,7 +30,6 @@
 * System Configuration → Serial Port: ***Disabled***
 * Secure Boot → Secure Boot Enable: ***Disabled***
 * Virtualization Support → VT for Direct I/O: ***取消勾选***
-
 
 
 ## 镜像下载
