@@ -23,6 +23,7 @@
 
 ## 赘述
 * HD630睡眠问题，全球误解，作者不再强求，如果想正常睡眠，请使用万能声卡驱动。
+* `hackintool`文件夹包含使用到的工具及acpi的源文件。
 
 ## BIOS设置
 * General → Advanced Boot Options：***取消勾选***
