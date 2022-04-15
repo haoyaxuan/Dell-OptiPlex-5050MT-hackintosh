@@ -32,9 +32,9 @@
 * Secure Boot → Secure Boot Enable: ***Disabled***
 * Virtualization Support → VT for Direct I/O: ***取消勾选***
 * 将EFI-shell文件夹复制到U盘，改名为EFI，然后从U盘启动
-* 设置 Pre-Allocated DVMT 为 64M:
+* <font color="red">设置 Pre-Allocated DVMT 为 64M:</font>
   ***setup_var 0x795 0x02***
-* 禁用 CFG lock:
+* <font color="red">禁用 CFG lock:</font>
   ***setup_var 0x4ed 0x00***
 
 ## 镜像下载
