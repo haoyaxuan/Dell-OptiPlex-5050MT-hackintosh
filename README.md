@@ -31,10 +31,13 @@
 * System Configuration → Serial Port: ***Disabled***
 * Secure Boot → Secure Boot Enable: ***Disabled***
 * Virtualization Support → VT for Direct I/O: ***取消勾选***
+
+
+## 隐藏BIOS设置
 * 将EFI-shell文件夹复制到U盘，改名为EFI，然后从U盘启动
-* <font color='red'>设置 Pre-Allocated DVMT 为 64M:</font>
+* 设置 Pre-Allocated DVMT 为 64M:
   ***setup_var 0x795 0x02***
-* <font color='red'>禁用 CFG lock:</font>
+* 禁用 CFG lock:
   ***setup_var 0x4ed 0x00***
 
 ## 镜像下载
