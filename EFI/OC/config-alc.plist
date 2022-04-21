@@ -564,11 +564,11 @@
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>ShowPicker</key>
-			<false/>
+			<true/>
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
-			<integer>0</integer>
+			<integer>20</integer>
 		</dict>
 		<key>Debug</key>
 		<dict>
@@ -665,7 +665,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1</string>
+				<string>-v keepsyms=1</string>
 				<key>csr-active-config</key>
 				<data>ZwAAAA==</data>
 				<key>run-efi-updater</key>
@@ -750,7 +750,7 @@
 			<key>SystemSerialNumber</key>
 			<string>C02TXVYQH7JY</string>
 			<key>SystemUUID</key>
-			<string>21410A22-B1E6-46E7-9F6C-6A08810DB231</string>
+			<string>4846D153-6F34-4BD4-92AF-1940CACC3E68</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>

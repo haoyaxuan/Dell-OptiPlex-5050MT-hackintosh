@@ -441,11 +441,11 @@
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>ShowPicker</key>
-			<false/>
+			<true/>
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
-			<integer>0</integer>
+			<integer>20</integer>
 		</dict>
 		<key>Debug</key>
 		<dict>
@@ -542,7 +542,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1</string>
+				<string>-v keepsyms=1</string>
 				<key>csr-active-config</key>
 				<data>ZwAAAA==</data>
 				<key>run-efi-updater</key>
@@ -617,7 +617,7 @@
 			<key>ProcessorType</key>
 			<integer>1543</integer>
 			<key>ROM</key>
-			<data>9e5O1Knv</data>
+			<data>7PT0POEa</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
@@ -627,7 +627,7 @@
 			<key>SystemSerialNumber</key>
 			<string>C02TXVYQH7JY</string>
 			<key>SystemUUID</key>
-			<string>21410A22-B1E6-46E7-9F6C-6A08810DB231</string>
+			<string>9D2830F1-C7A5-472A-8EB4-EAD2863CE11A</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
