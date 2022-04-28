@@ -22,12 +22,14 @@
 * `config-alc.plist`使用AppleALC驱动音频，存在睡眠唤醒后黑屏，需要在`节能`中勾选`当显示器关闭时，防止电脑自动进入睡眠`。
 * `hackintool`文件夹包含使用到的工具及acpi的源文件。
 * 使用之前补齐`三码`
+* 之所以在BIOS勾选`Block Sleep (S3 state)`是为了防止电脑进行S3睡眠状态，不清楚是什么原因，进入后将无法唤醒。
 
 ## BIOS设置
 * General → Advanced Boot Options：***取消勾选***
 * System Configuration → SATA Operation: ***AHCI***
 * System Configuration → Serial Port: ***Disabled***
 * Secure Boot → Secure Boot Enable: ***Disabled***
+* Power Management → Block Sleep → Block Sleep (S3 state) ***勾选***
 * Virtualization Support → VT for Direct I/O: ***取消勾选***
 
 
