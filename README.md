@@ -18,9 +18,12 @@
 * usb，前面板和主板均正常
 * 音频正常
 
+
 ## 说明
+* 引导中使用`SSDT-S3-BLOCK.aml`补丁解决睡眠问题，这也意味着电脑在MacOS下只会进入S2睡眠，不会进入S3深度睡眠，S2只会对CPU进行低功耗。
 * `hackintool`文件夹包含使用到的工具及acpi的源文件。
 * 使用之前补齐`三码`
+
 
 ## BIOS设置
 * General → Advanced Boot Options：***取消勾选***
