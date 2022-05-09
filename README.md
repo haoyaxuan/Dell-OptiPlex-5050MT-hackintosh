@@ -1,9 +1,9 @@
-# Dell-OptiPlex-5050
+# Dell-OptiPlex-5050MT
 ## 电脑配置
 
 | 规格     | 详细信息              |
 | -------- |-------------------|
-| 电脑型号 | DELL-OptiPlex-5050 |
+| 电脑型号 | DELL-OptiPlex-5050MT |
 | 处理器   | 英特尔 酷睿 i5-7500 处理器 |
 | 内存     | DDR4 16GB         |
 | 硬盘     | 256GB SSD         |
